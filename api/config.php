@@ -5,9 +5,9 @@ $production = true;
 if ($production==true)
 {
     $host       = 'localhost';
-    $user       = 'cp656732_admin';
-    $password   = 'Phuvieng123';
-    $dbname     = 'cp656732_tickets';
+    $user       = '';
+    $password   = '';
+    $dbname     = '';
 	$_CONFIG['mode']='prod'; //debug
 }else{
 
