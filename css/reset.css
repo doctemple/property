@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+html {
+	height: 100vh; 
+		scrollbar-width: none;
+		-ms-overflow-style: none; 
+	}
+
+html::-webkit-scrollbar {
+	width: 0px; 
+}
+
+body { 
+	height: 100%; 
+	scrollbar-width: none;
+	-ms-overflow-style: none; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+body::-webkit-scrollbar {
+		width: 0px; 
+	}
+
+.table-sm{
+	font-size:16px;
+}
